@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav>
+		<ol>
+			<li class="crumb"><a href="./home.html">Home</a></li>
+			<li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./about.html">About</a></li>
+		</ol>
+	</nav>
+
+	<content>
+		<p>Hello World</p>
+		<!-- insert hello world here -->
+
+		<img src="Taiwo.png" alt="profile pix">
+
+		<p>You are welcome to my page.</p>
+
+		<h2>Compliments:</h2>
+		<ul>
+			<li>Your pressence on my page is well appreciated.</li>
+			<li>Your communication skills are impressive.</li>
+			<li>You have been selected, as the lucky winner of the sum of $10,000. CONGRATULATION!!!</li>
+		</ul>
+
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+
+		</form>
+
+
+		<form id="contact2">
+
+			<label for="how-heard">How did you hear about us?</label>
+			<ul>
+				<li><input type="checkbox" id="google" name="how-heard[]" value="Google"><label
+						for="google">Google</label></li>
+				<li><input type="checkbox" id="friend" name="how-heard[]" value="A friend"><label for="friend">A
+						friend</label></li>
+				<li><input type="checkbox" id="other" name="how-heard[]" value="Other"><label for="other">Other (please
+						specify):</label>
+					<input type="text" id="other-text" name="other-text">
+				</li>
+			</ul>
+
+			<input type="submit" value="Submit">
+		</form>
+
+	</content>
+
+	<h2>Compliment Images:</h2>
+	<!-- Cat Image with ID -->
+	<img id="catImage" src="cat.jpeg" alt="Cat Image">
+
+	<!-- Rubber Duck Image with ID -->
+	<img id="duckImage" src="rubber_duck.png" alt="Rubber Duck Image">
+
+
+	<script src="index.js"></script>
+
+</body>
+
+</html>
